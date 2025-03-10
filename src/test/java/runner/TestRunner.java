@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "html:target/cucumber-html-report", "json:cucumber.json"}
         //, dryRun = true; verify compilation of step def & feature files
 )
-d
+
 public class TestRunner {
 
 
