@@ -28,7 +28,7 @@ public class HomePage extends BrowserDriver  {
     public static void click_signIn_Link() throws InterruptedException{
         Thread.sleep(3000);
         driver.findElement(By.xpath(signIn_link_xpath)).click();
-        //System.out.println("Success!! User navigates to the login page via hambur menu");
+        System.out.println("Success!! User navigates to the login page via hambur menu");
 
     }
 
