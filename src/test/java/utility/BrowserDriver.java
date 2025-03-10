@@ -12,13 +12,13 @@ public class BrowserDriver {
 
     // constructor
     public BrowserDriver(){
-        options = new ChromeOptions();
+        /*options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-        System.setProperty("webdriver.http.factory", "jdk-http-client");
-        //this.driver = driver;
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/src/test/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.http.factory", "jdk-http-client");*/
+        //this.driver = driver; Not required
+        /*System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/src/test/resources/drivers/chromedriver.exe");
         this.driver = new ChromeDriver(); //initialize chrome driver
-        driver.get("https://anupdamoda.github.io/AceOnlineShoePortal/index.html#");
+        driver.get("https://anupdamoda.github.io/AceOnlineShoePortal/index.html#");*/
     }
 
     public void close(){

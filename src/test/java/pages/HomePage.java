@@ -20,15 +20,16 @@ public class HomePage extends BrowserDriver  {
         WebDriverManager.chromedriver().setup();
         driver= new ChromeDriver();
         driver.get("https://anupdamoda.github.io/AceOnlineShoePortal/index.html#");
+        driver.manage().window().maximize();
 
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath(hamburger_menu_xpath)).click();
     }
 
     public static void click_signIn_Link() throws InterruptedException{
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath(signIn_link_xpath)).click();
-        System.out.println("Success!! User navigates to the login page via hambur menu");
+        //System.out.println("Success!! User navigates to the login page via hambur menu");
 
     }
 

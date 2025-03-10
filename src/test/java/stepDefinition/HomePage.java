@@ -9,7 +9,7 @@ public class HomePage {
         public void user_navigates_to_the_Login_page() throws Throwable{
             click_hamburger_menu();
             click_signIn_Link();
-            System.out.println("Step definition for scenario user nav to login page run");
+            System.out.println("User navigates to the login page");
     }
 }
 
