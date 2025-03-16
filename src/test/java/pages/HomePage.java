@@ -17,7 +17,8 @@ public class HomePage extends BrowserDriver  {
 
     // perform operations
     public static void click_hamburger_menu() throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
+        //WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/src/test/resources/drivers/chromedriver.exe");
         driver= new ChromeDriver();
         driver.get("https://anupdamoda.github.io/AceOnlineShoePortal/index.html#");
         //driver.manage().window().maximize();

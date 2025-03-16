@@ -14,8 +14,11 @@ public class RegistrationPage extends BrowserDriver {
         //Thread.sleep(3000);
         String getRegistration =  driver.findElement(By.xpath(registration_heading_xpath)).getText();
         assertEquals("User Registration Page", getRegistration);
-
+        driver.quit();
+        //driver.close();
         //return getRegistration;
     }
+
+
 
 }

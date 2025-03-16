@@ -1,5 +1,6 @@
 Feature: LoggedIn User View
 
+  @Regression
   Scenario: Validate user able to view after log in
     Given User navigates to the login page
     When User successfully enters the log in details
